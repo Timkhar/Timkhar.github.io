@@ -1,0 +1,55 @@
+{
+  "block_id": "ESG-DA-2026-001",
+  "package": "ESG_Data_Asset_Package_v1.0",
+  "version": "1.0",
+  "entries": [
+    {
+      "timestamp": "2026-01-12T09:00:00Z",
+      "action": "raw_data_ingested",
+      "actor": "data-engineering",
+      "version": "1.0",
+      "hash": "0x8391e303c637aba673cd9b53206ad109e4fe5f70857e9d9c069d20a3dd113a4c",
+      "file": "01_Raw_Data/input_tables.csv"
+    },
+    {
+      "timestamp": "2026-01-12T09:05:00Z",
+      "action": "raw_data_ingested",
+      "actor": "data-engineering",
+      "version": "1.0",
+      "hash": "0xd9de445649299cb2bca184b3dd35faf68a4ec545970b95f49834293ac9b6640e",
+      "file": "01_Raw_Data/output_tables.csv"
+    },
+    {
+      "timestamp": "2026-01-13T14:30:00Z",
+      "action": "metrics_calculated",
+      "actor": "methodology-owner",
+      "version": "1.0",
+      "hash": "0x0d0f940f76910db4983ff9f77f71a63e248652852807642910a1c5ba00efc701",
+      "file": "02_Metrics_Calculations/economic_metrics.xlsx"
+    },
+    {
+      "timestamp": "2026-01-13T14:31:00Z",
+      "action": "metrics_calculated",
+      "actor": "methodology-owner",
+      "version": "1.0",
+      "hash": "0x0131da53875766821995ecd175aa0f12f7976fda3340df1acc43a43783181cae",
+      "file": "02_Metrics_Calculations/social_metrics.xlsx"
+    },
+    {
+      "timestamp": "2026-01-14T11:00:00Z",
+      "action": "assurance_issued",
+      "actor": "assurance-provider",
+      "version": "1.0",
+      "hash": "0x1ffabcf0fbd4326c4458f7ee49eea2222d0efd5480c5215a57ebe1f0bf4f5327",
+      "file": "03_Verification_Docs/verification_report.pdf"
+    },
+    {
+      "timestamp": "2026-01-15T00:00:00Z",
+      "action": "package_released",
+      "actor": "Potentiacta",
+      "version": "1.0",
+      "hash": "0xad05df621b34117fac3cdfc7f44921ee8982c02fd3da6f97d880cc70a07f5b7a",
+      "file": "04_Valuation_Audit/independent_audit_opinion.pdf"
+    }
+  ]
+}

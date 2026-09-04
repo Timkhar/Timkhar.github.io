@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 507 >>
+stream
+BT
+/F1 18 Tf
+72 702 Td
+(Data Lineage Map) Tj
+ET
+BT
+/F1 11 Tf
+14 TL
+72 672 Td
+(Source documents \(statistical tables, GRI reports, ESRS filings\) -> extraction \(API) Tj T*
+(import, OCR, manual entry\) -> 01_Raw_Data CSV tables -> 02_Metrics_Calculations) Tj T*
+(workbooks -> valuation and audit documents.) Tj T*
+T*
+(Every stage records the sha256 of its outputs in) Tj T*
+(03_Verification_Docs/audit_trail.json; the README_manifest.json lists the final hash) Tj T*
+(of every file in this package.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000338 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+896
+%%EOF

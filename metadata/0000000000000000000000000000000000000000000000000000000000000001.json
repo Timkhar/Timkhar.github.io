@@ -1,0 +1,23 @@
+{
+  "name": "ESG Data Asset ESG-DA-2026-001 - 10-sector input-output ESG matrix, FY2025",
+  "description": "Verified ESG data asset: 10-sector input-output matrix with GRI / SASB / ISSB / CSRD-aligned indicators for FY2025, raw tables, calculations, verification, valuation and usage documents.",
+  "image": "/metadata/0000000000000000000000000000000000000000000000000000000000000001.svg",
+  "decimals": 0,
+  "properties": {
+    "block_id": "ESG-DA-2026-001",
+    "package_name": "ESG_Data_Asset_Package_v1.0",
+    "package_version": "1.0",
+    "content_hash": "0x7bd02ef36e5ae7a0ae99e0e66fcf797c5a0b859f827e45ac156ceb165ebb1272",
+    "manifest_path": "/packages/ESG_Data_Asset_Package_v1.0/README_manifest.json",
+    "standards": [
+      "GRI",
+      "SASB",
+      "ISSB",
+      "CSRD"
+    ],
+    "output_value_usd": 1000000,
+    "total_supply": "1000000",
+    "valuation_method": "output_based",
+    "issuer": "Potentiacta"
+  }
+}

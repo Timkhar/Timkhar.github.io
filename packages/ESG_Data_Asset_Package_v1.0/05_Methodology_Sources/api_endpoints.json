@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "block_id": "ESG-DA-2026-001",
+  "base_url": "https://vault.example.org/api",
+  "auth": "Signed proof of ownership (EIP-191) + on-chain balanceOf check",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/blocks/{blockId}",
+      "description": "Block info: content hash, metadata hash, total supply, URI"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/blocks/{blockId}/manifest",
+      "description": "README_manifest.json with file hashes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/blocks/{blockId}/key",
+      "description": "Exchange a signed proof of ownership for the package key"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/blocks/{blockId}/files/{path}",
+      "description": "Download one package file (token-gated)"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/blocks/{blockId}/history",
+      "description": "Transfers with accounting memos, filter by wallet"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 542 >>
+stream
+BT
+/F1 18 Tf
+72 702 Td
+(Methodology Guide) Tj
+ET
+BT
+/F1 11 Tf
+14 TL
+72 672 Td
+(This guide explains how to reproduce the metrics in 02_Metrics_Calculations from) Tj T*
+(01_Raw_Data: load both CSV tables, filter by sector code, apply the Leontief) Tj T*
+(coefficients and aggregate the ESG indicators by framework.) Tj T*
+T*
+(Framework references: GRI 305 \(emissions\), GRI 401 \(employment\), GRI 303 \(water\),) Tj T*
+(SASB industry standards, IFRS S2 \(ISSB\) and ESRS E1 / S1 \(CSRD\). See) Tj T*
+(source_references.md for links.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000338 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+931
+%%EOF
