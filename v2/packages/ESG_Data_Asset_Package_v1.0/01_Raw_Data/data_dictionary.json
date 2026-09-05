@@ -1,0 +1,134 @@
+{
+  "package": "ESG_Data_Asset_Package_v1.0",
+  "version": "1.0",
+  "tables": {
+    "input_tables.csv": {
+      "rows": 40,
+      "description": "Leontief inter-sector flows and totals, USD millions"
+    },
+    "output_tables.csv": {
+      "rows": 40,
+      "description": "ESG output indicators per sector, FY2025"
+    }
+  },
+  "fields": {
+    "metric_id": {
+      "type": "string",
+      "description": "Stable identifier: sector/flow code + framework code + period"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "End of the reporting period (UTC)"
+    },
+    "indicator_name": {
+      "type": "string",
+      "description": "Human-readable indicator with framework reference"
+    },
+    "value": {
+      "type": "number",
+      "description": "Numeric value in the stated unit"
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "USD_M",
+        "tCO2e",
+        "count",
+        "ratio"
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "statistical_agency",
+        "regulatory_filing",
+        "self_reported",
+        "third_party_audit"
+      ]
+    },
+    "extraction_method": {
+      "type": "string",
+      "enum": [
+        "api_import",
+        "manual_entry",
+        "ocr_extraction"
+      ]
+    },
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "pending_review",
+        "unverified"
+      ]
+    }
+  },
+  "sectors": [
+    {
+      "code": "AGR",
+      "name": "Agriculture",
+      "sasb_industry": "FB-AG"
+    },
+    {
+      "code": "MIN",
+      "name": "Mining",
+      "sasb_industry": "EM-MM"
+    },
+    {
+      "code": "MAN",
+      "name": "Manufacturing",
+      "sasb_industry": "RT-IG"
+    },
+    {
+      "code": "UTL",
+      "name": "Utilities",
+      "sasb_industry": "IF-EU"
+    },
+    {
+      "code": "CON",
+      "name": "Construction",
+      "sasb_industry": "IF-EN"
+    },
+    {
+      "code": "TRN",
+      "name": "Transportation & Warehousing",
+      "sasb_industry": "TR-RO"
+    },
+    {
+      "code": "WRT",
+      "name": "Wholesale & Retail Trade",
+      "sasb_industry": "CG-MR"
+    },
+    {
+      "code": "INF",
+      "name": "Information & Technology",
+      "sasb_industry": "TC-SI"
+    },
+    {
+      "code": "FIN",
+      "name": "Finance & Insurance",
+      "sasb_industry": "FN-CB"
+    },
+    {
+      "code": "SVC",
+      "name": "Services",
+      "sasb_industry": "SV-PS"
+    }
+  ],
+  "frameworks": [
+    "GRI",
+    "SASB",
+    "ISSB",
+    "CSRD"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "asset_id": "ESG-DA-2026-001",
+  "package_name": "ESG_Data_Asset_Package_v1.0",
+  "version": "1.0",
+  "title": "ESG Data Asset ESG-DA-2026-001 - 10-sector input-output ESG matrix, FY2025",
+  "description": "Verified ESG data asset: 10-sector input-output matrix with GRI / SASB / ISSB / CSRD-aligned indicators for FY2025, raw tables, calculations, verification, valuation and usage documents.",
+  "created_at": "2026-01-15T00:00:00Z",
+  "standards": [
+    "GRI",
+    "SASB",
+    "ISSB",
+    "CSRD"
+  ],
+  "sources": [
+    {
+      "id": "SRC-01",
+      "name": "National statistical agency - supply and use tables 2025",
+      "url": "https://data.example.org/io-tables/2025",
+      "type": "statistical_agency",
+      "coverage": "Inter-sector flows and gross output for all 10 sectors"
+    },
+    {
+      "id": "SRC-02",
+      "name": "Corporate sustainability reports (GRI-aligned), FY2025",
+      "url": "https://reports.example.org/gri/2025",
+      "type": "self_reported",
+      "coverage": "Scope 1 and Scope 2 GHG emissions, turnover"
+    },
+    {
+      "id": "SRC-03",
+      "name": "CSRD / ESRS regulatory filings, FY2025",
+      "url": "https://filings.example.org/esrs/2025",
+      "type": "regulatory_filing",
+      "coverage": "Own workforce characteristics (ESRS S1-6)"
+    },
+    {
+      "id": "SRC-04",
+      "name": "Independent assurance provider - limited assurance statements",
+      "url": "https://assurance.example.org/2025",
+      "type": "third_party_audit",
+      "coverage": "Verification status and confidence scores"
+    }
+  ],
+  "methodologies": [
+    {
+      "id": "MTH-01",
+      "name": "Leontief input-output model",
+      "framework": "Economic",
+      "reference": "Leontief, W. (1986). Input-Output Economics, 2nd ed.",
+      "description": "Technical coefficients A = Z / x; total requirements (I - A)^-1 for the 10-sector matrix."
+    },
+    {
+      "id": "MTH-02",
+      "name": "GHG emissions disclosure",
+      "framework": "GRI",
+      "reference": "GRI 305: Emissions 2016 (305-1, 305-2)",
+      "description": "Scope 1 and Scope 2 (location-based) GHG emissions in tCO2e."
+    },
+    {
+      "id": "MTH-03",
+      "name": "Employment and turnover disclosure",
+      "framework": "GRI",
+      "reference": "GRI 401: Employment 2016 (401-1); GRI 303: Water 2018 (303-3)",
+      "description": "New hires and turnover rate; water withdrawal by source."
+    },
+    {
+      "id": "MTH-04",
+      "name": "Industry-specific metrics",
+      "framework": "SASB",
+      "reference": "SASB Standards, industry codes per sector (e.g. EM-MM-110a.1, TC-SI-130a.1)",
+      "description": "Sector metrics mapped to SASB industry codes."
+    },
+    {
+      "id": "MTH-05",
+      "name": "Climate-related disclosures",
+      "framework": "ISSB",
+      "reference": "IFRS S2 Climate-related Disclosures",
+      "description": "Cross-industry GHG metrics consistent with IFRS S2 paragraph 29(a)."
+    },
+    {
+      "id": "MTH-06",
+      "name": "European sustainability reporting",
+      "framework": "CSRD",
+      "reference": "ESRS E1-6 (GHG emissions), ESRS S1-6 (own workforce characteristics)",
+      "description": "Data points required under the CSRD delegated act."
+    },
+    {
+      "id": "MTH-07",
+      "name": "Output-based valuation",
+      "framework": "Valuation",
+      "reference": "Internal valuation policy VP-2025-03",
+      "description": "Token supply equals modelled output value in USD; one token represents one USD of output."
+    }
+  ],
+  "usage_recommendations": [
+    "Use 01_Raw_Data for model inputs; 02_Metrics_Calculations contains derived figures only.",
+    "Verify every file against README_manifest.json (sha256) before use; the block content hash commits to this manifest.",
+    "Treat rows with verification_status = pending_review as provisional.",
+    "Cite the data asset by block id ESG-DA-2026-001 and the content hash.",
+    "Licensing: token holders may use the package internally; redistribution requires a separate licence (06_Usage_Recommendations/licensing_terms.pdf)."
+  ],
+  "data_dictionary_path": "01_Raw_Data/data_dictionary.json",
+  "files": [
+    {
+      "path": "01_Raw_Data/data_dictionary.json",
+      "sha256": "0x64d4d3c7918c20ba8359ba3f1f3b28d7ff93a96ad2847266697d23fb736ac749",
+      "bytes": 2716
+    },
+    {
+      "path": "01_Raw_Data/input_tables.csv",
+      "sha256": "0x8391e303c637aba673cd9b53206ad109e4fe5f70857e9d9c069d20a3dd113a4c",
+      "bytes": 7803
+    },
+    {
+      "path": "01_Raw_Data/output_tables.csv",
+      "sha256": "0xd9de445649299cb2bca184b3dd35faf68a4ec545970b95f49834293ac9b6640e",
+      "bytes": 7917
+    },
+    {
+      "path": "02_Metrics_Calculations/calculation_methodology.pdf",
+      "sha256": "0xb7b9710817fa1b11572dee9b482b99b6dcb93d02635f11649db1ae0365cdb70e",
+      "bytes": 1273
+    },
+    {
+      "path": "02_Metrics_Calculations/economic_metrics.xlsx",
+      "sha256": "0x0d0f940f76910db4983ff9f77f71a63e248652852807642910a1c5ba00efc701",
+      "bytes": 2726
+    },
+    {
+      "path": "02_Metrics_Calculations/social_metrics.xlsx",
+      "sha256": "0x0131da53875766821995ecd175aa0f12f7976fda3340df1acc43a43783181cae",
+      "bytes": 2679
+    },
+    {
+      "path": "03_Verification_Docs/audit_trail.json",
+      "sha256": "0xafb9443f30f9e9e2769f287fba7f6e5171ac4bd47aeb11eef395401a6c590aed",
+      "bytes": 1873
+    },
+    {
+      "path": "03_Verification_Docs/data_lineage_map.pdf",
+      "sha256": "0xe3777775890368c937996e0942ae9dba1bd2c167943cfe076bb097cab6c3eb91",
+      "bytes": 1079
+    },
+    {
+      "path": "03_Verification_Docs/quality_assurance_signoffs.pdf",
+      "sha256": "0x44a2ba63beafd5494f82be0e285a72f33bf44842badf7a1b5ba0f66fbfb447d8",
+      "bytes": 990
+    },
+    {
+      "path": "03_Verification_Docs/verification_report.pdf",
+      "sha256": "0x1ffabcf0fbd4326c4458f7ee49eea2222d0efd5480c5215a57ebe1f0bf4f5327",
+      "bytes": 1172
+    },
+    {
+      "path": "04_Valuation_Audit/cost_benefit_analysis.xlsx",
+      "sha256": "0x9d27832b217b243e61b01e14ab1ca4c0873588ddf5254f0ab0f4d1f5f636b56b",
+      "bytes": 2383
+    },
+    {
+      "path": "04_Valuation_Audit/independent_audit_opinion.pdf",
+      "sha256": "0xad05df621b34117fac3cdfc7f44921ee8982c02fd3da6f97d880cc70a07f5b7a",
+      "bytes": 1017
+    },
+    {
+      "path": "04_Valuation_Audit/valuation_methodology.pdf",
+      "sha256": "0x66b931f80f89e339fb01765b1a743ed42a66a8477a76239b471edebf46caff36",
+      "bytes": 1208
+    },
+    {
+      "path": "05_Methodology_Sources/api_endpoints.json",
+      "sha256": "0x125b98976316ce3255f4b3be235d01ad706cac76b9b839b52334c494ed397cb6",
+      "bytes": 964
+    },
+    {
+      "path": "05_Methodology_Sources/methodology_guide.pdf",
+      "sha256": "0x3a13cdf394ff6a7128b8e5a8399d483f6f3deb0cd933f9546b83f2c035da33e4",
+      "bytes": 1114
+    },
+    {
+      "path": "05_Methodology_Sources/source_references.md",
+      "sha256": "0x868dbca7cc05bb2971ab7a7168a56a6dedf6d42c5a8d7a46a8f1c3ff834390f1",
+      "bytes": 2066
+    },
+    {
+      "path": "06_Usage_Recommendations/integration_guide.pdf",
+      "sha256": "0xb1df19950fd7d4a2ab0eee91ab13f8302429041d2d49134195ed374ad94ea281",
+      "bytes": 1124
+    },
+    {
+      "path": "06_Usage_Recommendations/licensing_terms.pdf",
+      "sha256": "0xcb7ab5816856099c44f01b00bd957efe1b8319d085613436d435d037205dc764",
+      "bytes": 1107
+    },
+    {
+      "path": "06_Usage_Recommendations/use_cases.md",
+      "sha256": "0xbb7991eb8b027ad3795366a328c30f270a6c430afcdd7e35b26a2db3b9f2fb5f",
+      "bytes": 663
+    }
+  ]
+}

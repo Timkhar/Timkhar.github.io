@@ -1,0 +1,50 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 635 >>
+stream
+BT
+/F1 18 Tf
+72 702 Td
+(Valuation Methodology) Tj
+ET
+BT
+/F1 11 Tf
+14 TL
+72 672 Td
+(Output-based valuation \(internal policy VP-2025-03\)) Tj T*
+T*
+(The data asset is valued at its modelled output value: the incremental economic) Tj T*
+(output attributable to the availability of verified sector-level ESG data for the) Tj T*
+(10-sector matrix. For block ESG-DA-2026-001 the output value is USD 1,000,000.) Tj T*
+T*
+(Token supply equals the output value in USD, so one token represents one USD of) Tj T*
+(output. Transfers record the token price and total value in the accounting memo; no) Tj T*
+(revaluation happens on-chain.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000338 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1024
+%%EOF

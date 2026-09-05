@@ -1,0 +1,47 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 445 >>
+stream
+BT
+/F1 18 Tf
+72 702 Td
+(Independent Audit Opinion) Tj
+ET
+BT
+/F1 11 Tf
+14 TL
+72 672 Td
+(In our opinion the valuation of data asset ESG-DA-2026-001 at USD 1,000,000 has been) Tj T*
+(prepared, in all material respects, in accordance with the output-based valuation) Tj T*
+(policy described in valuation_methodology.pdf.) Tj T*
+T*
+(This placeholder opinion is part of the simulation package and does not constitute) Tj T*
+(an audit report.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000338 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+834
+%%EOF

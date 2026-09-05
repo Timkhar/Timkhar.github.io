@@ -1,0 +1,41 @@
+metric_id,timestamp,indicator_name,value,unit,source_url,source_type,extraction_method,confidence_score,verification_status
+AGR-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),102063.7,tCO2e,https://reports.example.org/gri/2025/agr,self_reported,manual_entry,0.8,pending_review
+AGR-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",26021.5,tCO2e,https://reports.example.org/gri/2025/agr,self_reported,manual_entry,0.94,verified
+AGR-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),250325,count,https://filings.example.org/esrs/2025/agr,regulatory_filing,ocr_extraction,0.86,verified
+AGR-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB FB-AG),0.114,ratio,https://reports.example.org/gri/2025/agr,third_party_audit,manual_entry,0.94,verified
+MIN-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),246265.4,tCO2e,https://reports.example.org/gri/2025/min,self_reported,manual_entry,0.82,verified
+MIN-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",93665.8,tCO2e,https://reports.example.org/gri/2025/min,self_reported,manual_entry,0.86,verified
+MIN-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),134013,count,https://filings.example.org/esrs/2025/min,regulatory_filing,ocr_extraction,0.95,pending_review
+MIN-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB EM-MM),0.187,ratio,https://reports.example.org/gri/2025/min,third_party_audit,manual_entry,0.96,pending_review
+MAN-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),53662.8,tCO2e,https://reports.example.org/gri/2025/man,self_reported,manual_entry,0.93,verified
+MAN-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",27949,tCO2e,https://reports.example.org/gri/2025/man,self_reported,manual_entry,0.85,verified
+MAN-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),99696,count,https://filings.example.org/esrs/2025/man,regulatory_filing,ocr_extraction,0.92,verified
+MAN-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB RT-IG),0.149,ratio,https://reports.example.org/gri/2025/man,third_party_audit,manual_entry,0.85,verified
+UTL-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),100188.9,tCO2e,https://reports.example.org/gri/2025/utl,self_reported,manual_entry,0.9,verified
+UTL-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",30775.3,tCO2e,https://reports.example.org/gri/2025/utl,self_reported,manual_entry,0.9,pending_review
+UTL-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),21394,count,https://filings.example.org/esrs/2025/utl,regulatory_filing,ocr_extraction,0.88,pending_review
+UTL-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB IF-EU),0.196,ratio,https://reports.example.org/gri/2025/utl,third_party_audit,manual_entry,0.96,verified
+CON-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),47268.3,tCO2e,https://reports.example.org/gri/2025/con,self_reported,manual_entry,0.85,verified
+CON-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",19772,tCO2e,https://reports.example.org/gri/2025/con,self_reported,manual_entry,0.9,verified
+CON-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),239040,count,https://filings.example.org/esrs/2025/con,regulatory_filing,ocr_extraction,0.81,verified
+CON-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB IF-EN),0.109,ratio,https://reports.example.org/gri/2025/con,third_party_audit,manual_entry,0.91,verified
+TRN-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),227732.6,tCO2e,https://reports.example.org/gri/2025/trn,self_reported,manual_entry,0.93,verified
+TRN-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",96151,tCO2e,https://reports.example.org/gri/2025/trn,self_reported,manual_entry,0.93,verified
+TRN-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),251384,count,https://filings.example.org/esrs/2025/trn,regulatory_filing,ocr_extraction,0.89,verified
+TRN-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB TR-RO),0.128,ratio,https://reports.example.org/gri/2025/trn,third_party_audit,manual_entry,0.96,pending_review
+WRT-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),19082.2,tCO2e,https://reports.example.org/gri/2025/wrt,self_reported,manual_entry,0.81,pending_review
+WRT-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",10310.2,tCO2e,https://reports.example.org/gri/2025/wrt,self_reported,manual_entry,0.83,verified
+WRT-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),250992,count,https://filings.example.org/esrs/2025/wrt,regulatory_filing,ocr_extraction,0.9,pending_review
+WRT-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB CG-MR),0.175,ratio,https://reports.example.org/gri/2025/wrt,third_party_audit,manual_entry,0.93,verified
+INF-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),3956.3,tCO2e,https://reports.example.org/gri/2025/inf,self_reported,manual_entry,0.94,verified
+INF-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",1360,tCO2e,https://reports.example.org/gri/2025/inf,self_reported,manual_entry,0.92,pending_review
+INF-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),67782,count,https://filings.example.org/esrs/2025/inf,regulatory_filing,ocr_extraction,0.81,verified
+INF-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB TC-SI),0.138,ratio,https://reports.example.org/gri/2025/inf,third_party_audit,manual_entry,0.94,verified
+FIN-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),2050,tCO2e,https://reports.example.org/gri/2025/fin,self_reported,manual_entry,0.97,verified
+FIN-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",779,tCO2e,https://reports.example.org/gri/2025/fin,self_reported,manual_entry,0.89,verified
+FIN-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),46467,count,https://filings.example.org/esrs/2025/fin,regulatory_filing,ocr_extraction,0.8,verified
+FIN-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB FN-CB),0.162,ratio,https://reports.example.org/gri/2025/fin,third_party_audit,manual_entry,0.85,verified
+SVC-GRI305-1-2025Q4,2025-12-31T00:00:00Z,Direct (Scope 1) GHG emissions (GRI 305-1 / ESRS E1-6),7734.7,tCO2e,https://reports.example.org/gri/2025/svc,self_reported,manual_entry,0.87,verified
+SVC-GRI305-2-2025Q4,2025-12-31T00:00:00Z,"Energy indirect (Scope 2) GHG emissions, location-based (GRI 305-2 / IFRS S2)",2577,tCO2e,https://reports.example.org/gri/2025/svc,self_reported,manual_entry,0.85,pending_review
+SVC-ESRS-S1-6-2025Q4,2025-12-31T00:00:00Z,Own workforce headcount (ESRS S1-6),177469,count,https://filings.example.org/esrs/2025/svc,regulatory_filing,ocr_extraction,0.83,verified
+SVC-GRI401-1-2025Q4,2025-12-31T00:00:00Z,Employee turnover rate (GRI 401-1 / SASB SV-PS),0.199,ratio,https://reports.example.org/gri/2025/svc,third_party_audit,manual_entry,0.85,verified

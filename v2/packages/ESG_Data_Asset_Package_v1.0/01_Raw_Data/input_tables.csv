@@ -1,0 +1,41 @@
+metric_id,timestamp,indicator_name,value,unit,source_url,source_type,extraction_method,confidence_score,verification_status
+IO-MAN-AGR-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Agriculture,31.6,USD_M,https://data.example.org/io-tables/2025/agr,statistical_agency,api_import,0.99,verified
+IO-MIN-AGR-2025,2025-12-31T00:00:00Z,Intermediate input from Mining to Agriculture,31.5,USD_M,https://data.example.org/io-tables/2025/agr,statistical_agency,api_import,0.99,verified
+IO-FIN-AGR-2025,2025-12-31T00:00:00Z,Intermediate input from Finance & Insurance to Agriculture,31.3,USD_M,https://data.example.org/io-tables/2025/agr,statistical_agency,api_import,0.99,verified
+IO-TOTAL-AGR-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Agriculture",215.4,USD_M,https://data.example.org/io-tables/2025/agr,statistical_agency,api_import,0.99,verified
+IO-SVC-MIN-2025,2025-12-31T00:00:00Z,Intermediate input from Services to Mining,46.2,USD_M,https://data.example.org/io-tables/2025/min,statistical_agency,api_import,0.99,verified
+IO-WRT-MIN-2025,2025-12-31T00:00:00Z,Intermediate input from Wholesale & Retail Trade to Mining,39.5,USD_M,https://data.example.org/io-tables/2025/min,statistical_agency,api_import,0.99,verified
+IO-MAN-MIN-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Mining,39.4,USD_M,https://data.example.org/io-tables/2025/min,statistical_agency,api_import,0.99,verified
+IO-TOTAL-MIN-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Mining",256.1,USD_M,https://data.example.org/io-tables/2025/min,statistical_agency,api_import,0.99,verified
+IO-CON-MAN-2025,2025-12-31T00:00:00Z,Intermediate input from Construction to Manufacturing,24.1,USD_M,https://data.example.org/io-tables/2025/man,statistical_agency,api_import,0.99,verified
+IO-INF-MAN-2025,2025-12-31T00:00:00Z,Intermediate input from Information & Technology to Manufacturing,18.1,USD_M,https://data.example.org/io-tables/2025/man,statistical_agency,api_import,0.99,verified
+IO-WRT-MAN-2025,2025-12-31T00:00:00Z,Intermediate input from Wholesale & Retail Trade to Manufacturing,16.8,USD_M,https://data.example.org/io-tables/2025/man,statistical_agency,api_import,0.99,verified
+IO-TOTAL-MAN-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Manufacturing",95.6,USD_M,https://data.example.org/io-tables/2025/man,statistical_agency,api_import,0.99,verified
+IO-AGR-UTL-2025,2025-12-31T00:00:00Z,Intermediate input from Agriculture to Utilities,5.6,USD_M,https://data.example.org/io-tables/2025/utl,statistical_agency,api_import,0.99,verified
+IO-FIN-UTL-2025,2025-12-31T00:00:00Z,Intermediate input from Finance & Insurance to Utilities,5,USD_M,https://data.example.org/io-tables/2025/utl,statistical_agency,api_import,0.99,verified
+IO-MAN-UTL-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Utilities,4.1,USD_M,https://data.example.org/io-tables/2025/utl,statistical_agency,api_import,0.99,verified
+IO-TOTAL-UTL-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Utilities",28.9,USD_M,https://data.example.org/io-tables/2025/utl,statistical_agency,api_import,0.99,verified
+IO-SVC-CON-2025,2025-12-31T00:00:00Z,Intermediate input from Services to Construction,35.7,USD_M,https://data.example.org/io-tables/2025/con,statistical_agency,api_import,0.99,verified
+IO-TRN-CON-2025,2025-12-31T00:00:00Z,Intermediate input from Transportation & Warehousing to Construction,33.8,USD_M,https://data.example.org/io-tables/2025/con,statistical_agency,api_import,0.99,verified
+IO-MAN-CON-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Construction,33,USD_M,https://data.example.org/io-tables/2025/con,statistical_agency,api_import,0.99,verified
+IO-TOTAL-CON-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Construction",231.3,USD_M,https://data.example.org/io-tables/2025/con,statistical_agency,api_import,0.99,verified
+IO-AGR-TRN-2025,2025-12-31T00:00:00Z,Intermediate input from Agriculture to Transportation & Warehousing,53,USD_M,https://data.example.org/io-tables/2025/trn,statistical_agency,api_import,0.99,verified
+IO-UTL-TRN-2025,2025-12-31T00:00:00Z,Intermediate input from Utilities to Transportation & Warehousing,51.7,USD_M,https://data.example.org/io-tables/2025/trn,statistical_agency,api_import,0.99,verified
+IO-CON-TRN-2025,2025-12-31T00:00:00Z,Intermediate input from Construction to Transportation & Warehousing,48.8,USD_M,https://data.example.org/io-tables/2025/trn,statistical_agency,api_import,0.99,verified
+IO-TOTAL-TRN-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Transportation & Warehousing",338.6,USD_M,https://data.example.org/io-tables/2025/trn,statistical_agency,api_import,0.99,verified
+IO-FIN-WRT-2025,2025-12-31T00:00:00Z,Intermediate input from Finance & Insurance to Wholesale & Retail Trade,32.8,USD_M,https://data.example.org/io-tables/2025/wrt,statistical_agency,api_import,0.99,verified
+IO-INF-WRT-2025,2025-12-31T00:00:00Z,Intermediate input from Information & Technology to Wholesale & Retail Trade,25.1,USD_M,https://data.example.org/io-tables/2025/wrt,statistical_agency,api_import,0.99,verified
+IO-MAN-WRT-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Wholesale & Retail Trade,13.8,USD_M,https://data.example.org/io-tables/2025/wrt,statistical_agency,api_import,0.99,verified
+IO-TOTAL-WRT-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Wholesale & Retail Trade",103.6,USD_M,https://data.example.org/io-tables/2025/wrt,statistical_agency,api_import,0.99,verified
+IO-WRT-INF-2025,2025-12-31T00:00:00Z,Intermediate input from Wholesale & Retail Trade to Information & Technology,20.1,USD_M,https://data.example.org/io-tables/2025/inf,statistical_agency,api_import,0.99,verified
+IO-SVC-INF-2025,2025-12-31T00:00:00Z,Intermediate input from Services to Information & Technology,18.9,USD_M,https://data.example.org/io-tables/2025/inf,statistical_agency,api_import,0.99,verified
+IO-UTL-INF-2025,2025-12-31T00:00:00Z,Intermediate input from Utilities to Information & Technology,18,USD_M,https://data.example.org/io-tables/2025/inf,statistical_agency,api_import,0.99,verified
+IO-TOTAL-INF-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Information & Technology",92.1,USD_M,https://data.example.org/io-tables/2025/inf,statistical_agency,api_import,0.99,verified
+IO-MIN-FIN-2025,2025-12-31T00:00:00Z,Intermediate input from Mining to Finance & Insurance,19.4,USD_M,https://data.example.org/io-tables/2025/fin,statistical_agency,api_import,0.99,verified
+IO-MAN-FIN-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Finance & Insurance,16.4,USD_M,https://data.example.org/io-tables/2025/fin,statistical_agency,api_import,0.99,verified
+IO-CON-FIN-2025,2025-12-31T00:00:00Z,Intermediate input from Construction to Finance & Insurance,15.9,USD_M,https://data.example.org/io-tables/2025/fin,statistical_agency,api_import,0.99,verified
+IO-TOTAL-FIN-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Finance & Insurance",86.5,USD_M,https://data.example.org/io-tables/2025/fin,statistical_agency,api_import,0.99,verified
+IO-FIN-SVC-2025,2025-12-31T00:00:00Z,Intermediate input from Finance & Insurance to Services,19.4,USD_M,https://data.example.org/io-tables/2025/svc,statistical_agency,api_import,0.99,verified
+IO-CON-SVC-2025,2025-12-31T00:00:00Z,Intermediate input from Construction to Services,18.1,USD_M,https://data.example.org/io-tables/2025/svc,statistical_agency,api_import,0.99,verified
+IO-MAN-SVC-2025,2025-12-31T00:00:00Z,Intermediate input from Manufacturing to Services,14.8,USD_M,https://data.example.org/io-tables/2025/svc,statistical_agency,api_import,0.99,verified
+IO-TOTAL-SVC-2025,2025-12-31T00:00:00Z,"Total intermediate inputs, Services",98.7,USD_M,https://data.example.org/io-tables/2025/svc,statistical_agency,api_import,0.99,verified
